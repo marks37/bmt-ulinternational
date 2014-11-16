@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 8, 14, 7:56:36 PM
+    Author     : Mark
+*/
+
+.header {
+    position: relative;
+    //background-color: #080808;
+    height: 30px;
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.panel {
+    //height: 257px;
+    width: 390px;
+    /*float: left;*/
+    margin-left: auto;      
+    margin-right: auto;      
+    border: 0;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.2);
+}
+
+.panel:hover .panel-footer{
+    background-color: #5B70C0;
+}
+
+.panel-default>.panel-heading {
+    /*background-color: #555;*/
+}
+
+.panel-body {
+    height: 150px;
+    //width: 500px
+}
+
+.panel-footer {
+    height: 45px;
+    text-align: center;
+    //width: 500px;
+    background-color: #5B9BD5;
+    color: white;
+}
+
+#body {
+    position: relative;
+    //background-color: white;
+    width: 32%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#logo{
+    //background-color: #000;
+    height: 90px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+#text-title{
+    position:relative;
+    height: 30px;
+    width: auto;
+    margin-top: -95px;
+    margin-left: 120px;
+    margin-right: 15px;
+    //background-color: #285e8e;
+}
+
+#text-body{
+    position:absolute;
+    height: 45px;
+    width: auto;
+    margin-left: 122px;
+    margin-right: 15px;
+
+    /*    margin-top: -95px;
+        margin-left: 120px;
+        margin-right: 15px;*/
+    //background-color: #285e8e;
+}
+#text-title h3, .h3{
+    //color: gold
+    //background-color: #285e8e;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    margin: 0;
+    /*color: ;*/
+}
+
+small, .small{
+    /*color: ;*/
+}
+
+a{
+    color: #333;
+
+}
+
+#icon{
+    //float: left;
+    height: 35px;
+    width: 40px;
+    margin-top: -30px;
+    margin-left: 30px;
+    /*left: 50%;*/
+    /*margin-bottom: 15px;*/
+}
+
+#panel-results{
+    width: 400px;
+}
+
+#panel-results-body{
+    height: auto;
+}
+
+#results_title{
+    width: 100%;
+    /*height: 50px;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-bottom: 5px;*/
+}
+
+#results_text-title{
+    //float:left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+#results_text-area{
+    /*background-color: #5B9BD5;*/
+    clear: both;
+    width: 100%;
+}
+
+#results_text-area>div{
+    clear:both;
+    font-size: 16px;
+    /*margin-top:10px;*/
+}
+
+#results_text-area>div>p{
+    margin:0;
+}
+
+hr {
+    margin-top: 20px;
+    border-color: #333;
+    margin-bottom: 0;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+
+

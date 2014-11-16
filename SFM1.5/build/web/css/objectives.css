@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 5, 14, 2:25:58 AM
+    Author     : Mark
+*/
+
+.header {
+    position: relative;
+    //background-color: #080808;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#body {
+    position: relative;
+    //background-color: white;
+    width: 90%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel {
+    /*box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.2);*/
+}
+
+.panel-default>.panel-heading {
+/*    background-color: #222;
+    color: white;*/
+}
+
+.panel-body {
+    //padding: 0;
+    height: auto;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    margin: 0;
+    /*color: ;*/
+}
+
+small, .small{
+    /*color: ;*/
+}
+
+a{
+    color: #333;
+
+}
+
+
+
+
+
+
+
